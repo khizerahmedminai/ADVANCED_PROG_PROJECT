@@ -1,0 +1,40 @@
+import React from 'react';
+
+export default function Guids(x) {
+  const Guid = {
+    ApartmentGuid: 'Apartment',
+    OwnerName: 'Owner',
+    BuildingAccountGuid: 'Account',
+    CostGuid: 'Cost',
+    AccountBankBuildingGuid: 'Account',
+    CashAccountGuid: 'Account',
+    InsuranceAccountGuid: 'Account',
+    RentInfoGuid: 'Rentinfo',
+    AccountGuid: 'Account',
+    CurrencyGUID: 'Currency',
+    CurrencyPurchase: 'Currency',
+    OwnerAccountGuid: 'Account',
+    CurrencyIdentityGUID: 'Currency',
+    AccountCommIncomeGuid: 'Account',
+    AcCommissionFromOwnerGUID: 'Account',
+    AssetsAreaGuid: 'AssetsArea',
+    CurrentAssetsAreaGuid: 'AssetsArea',
+    AsstesAccountGuid: 'Account',
+    ExpenseAccountGuid: 'Account',
+    DepreciationAccountGuid: 'Account',
+    DepreciationTotalAccountGuid: 'Account',
+    ProfitAccountGuid: 'Account',
+    lossesAccountGuid: 'Account',
+    EvaluationAccountGuid: 'Account',
+    EnterAccountGuid: 'Account',
+    EnterCostGuid: 'Cost',
+    EnterCreditCostGuid: 'Cost',
+    SalesAccountGuid: 'Account',
+    CurrencyGuid: 'Currency',
+    BuildingGuid: 'Building',
+    RealtyGuid: 'apartment',
+    CustOwnerGuid: 'Owner',
+    CostCurrencyGUID: 'Currency',
+  };
+  return Guid[x] ? Guid[x] : 'Account';
+}
